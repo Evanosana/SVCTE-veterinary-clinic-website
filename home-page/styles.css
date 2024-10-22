@@ -1,25 +1,57 @@
-
-
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Grandiosity';
 }
-.navBar {
-    background-color: #FAF9F6;
+.nav-bar {
     height: 4rem;
     display: flex;
     align-items: center;
-    padding-inline: 2rem;
+    padding-inline: 1.5rem;
     justify-content: space-between;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.05);
 }
-body {
-    background-color: antiquewhite;
+.hidden {
+    display: none;
 }
-.logoIMG {
+.header {
+    font-family: 'Clipper';
+    font-size: 1rem;
+    vertical-align: ;
+}
+nav {
+    background-color: white;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 62.5%;
+    height: 100%;
+    display: flex;
+    padding-block: 3rem;
+    padding-inline: 2rem;
+    background-image:url(../images/dog1.jpg);
+    background-size:cover;
+    background-position: center;
+    margin: 0;
+}
+nav a {
+    color: #FEFEFE;
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    word-spacing: -6.5px;
+    letter-spacing: 1.25px;
+}
+nav li {
+    list-style: none;
+}
+.logo-img {
     height: 100%;
     display: inline-block;
 }
-.logoItems {
+.logo-img {
     margin-inline: 0.15rem
 }
 .logo {
@@ -41,4 +73,16 @@ body {
     height: 3px;
     background-color: black;
     border-radius: 3px;
+}
+@font-face {
+    font-family: 'Grandiosity';
+    src: url(../fonts/Grandiosity-Regular.ttf);
+}
+@font-face {
+    font-family: 'Titles';
+    src: url(../fonts/Linking.otf);
+}
+@font-face {
+    font-family: 'Move';
+    src: url(../fonts/MovesansLight-OGEE4.ttf);
 }
