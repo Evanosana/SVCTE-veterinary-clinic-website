@@ -1,7 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Grandiosity';
+    font-family: "Ubuntu", sans-serif;
+}
+body {
+    background-color: #f9e7e7;
 }
 .nav-bar {
     height: 4rem;
@@ -15,11 +18,38 @@
     display: none;
 }
 .header {
-    font-family: 'Clipper';
     font-size: 1rem;
-    vertical-align: ;
 }
-nav {
+h2{
+    text-align: center;
+}
+.info {
+    background-color: #FACBD6;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+.info h2, p {
+    color: #e86e81
+}
+.links{
+    text-align: center;
+    word-spacing: 8px;
+    margin-bottom: 0.5rem;
+}
+.home-content{
+    padding: 0.75rem 1.5rem;
+}
+.banner{
+    height: 6rem;
+    background-image:url(../images/view-adorable-chihuahua-dog-coming-out-torn-paper_23-2149880031.avif);
+    background-size: cover;
+    background-position: center;
+    margin-inline: auto;
+    border-radius: 10px;
+    margin-block: 0.45rem;
+}
+nav{
     background-color: white;
     border-right: 0.5px solid rgba(0, 0, 0, 0.05);
     box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
@@ -71,18 +101,50 @@ nav li {
     display: block;
     width: 100%;
     height: 3px;
-    background-color: black;
+    background-color:#f04962;
     border-radius: 3px;
 }
-@font-face {
-    font-family: 'Grandiosity';
-    src: url(../fonts/Grandiosity-Regular.ttf);
+.about{
+    display: inline-flex;
+    margin-block: 0.6rem;
 }
-@font-face {
-    font-family: 'Titles';
-    src: url(../fonts/Linking.otf);
+.abtImg{
+    background-image: url(../images/view-adorable-chihuahua-dog-coming-out-torn-paper_23-2149880031.avif);
+    background-size:cover;
+    background-position: center;
+    width: 200%;
+    border-radius: 5px;
 }
-@font-face {
-    font-family: 'Move';
-    src: url(../fonts/MovesansLight-OGEE4.ttf);
+.serImg{
+    background-image: url(../images/view-adorable-chihuahua-dog-coming-out-torn-paper_23-2149880031.avif);
+    background-size:cover;
+    background-position: center;
+    width: 150%;
+    border-radius: 5px;
+}
+.info{
+    padding-inline: 5px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+div h2{
+    color: #e47182
+}
+
+.logo-items{
+    color: #df6c7d
+}
+
+#nextPage{
+    display: block;
+    margin:0 auto;
+    text-align: center;
+    height: 50%;
+    width: 15%;
+    padding: 5px 5px 5px 5px;
+    color:#f04962;
+    background-color:#FACBD6;
+    border: solid 1px #FEFEFE;
 }
