@@ -137,7 +137,7 @@ div h2{
     color: #df6c7d
 }
 
-#nextPage{
+.buttons{
     display: block;
     margin:0 auto;
     text-align: center;
@@ -147,4 +147,14 @@ div h2{
     color:#f04962;
     background-color:#FACBD6;
     border: solid 1px #FEFEFE;
+}
+
+.separator{
+    background-color: #f04962;
+    width:auto;
+    height:3px;
+}
+
+.otherPages{
+    color: #f04962;
 }
